@@ -58,3 +58,66 @@
   </footer>
 </body>
 </html>
+</html>/* تنظیمات عمومی */
+body {
+  font-family: 'Open Sans', sans-serif;
+  direction: rtl;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* بخش‌های اصلی */
+.intro, .skills, .projects, .contact {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* عنوان بخش‌ها */
+h2 {
+  color: #3498db;
+  margin-bottom: 1rem;
+}
+
+/* لیست‌ها */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 1rem;
+  border-left: 5px solid #e74c3c;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* لینک‌ها */
+a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
